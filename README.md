@@ -3,11 +3,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
+- Nome: Mikael
+- Matrícula: 20.2.8098
+- Curso: SI
 - Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Link para o seu GitHub: 
 
 ## [Projeto final:](./Projeto/README.md)
 
