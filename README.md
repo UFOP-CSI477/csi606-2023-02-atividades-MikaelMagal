@@ -6,8 +6,8 @@
 - Nome: Mikael
 - Matrícula: 20.2.8098
 - Curso: SI
-- Semestre/Ano correntes:
-- Link para o seu GitHub: 
+- Semestre/Ano correntes: 
+- Link para o seu GitHub: https://github.com/MikaelMagal
 
 ## [Projeto final:](./Projeto/README.md)
 
