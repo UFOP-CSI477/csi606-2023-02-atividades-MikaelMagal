@@ -7,5 +7,62 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgresql://postgres:mikael2012@localhost:5432/web2"
 }
+
+model Tipos_sanguineos {
+  id Int @id @default(autoincrement()) // auto-increment
+  tipo String
+  fator String
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now())
+}
+
+model Estados {
+  id Int @id @default(autoincrement()) // auto-increment
+  nome String
+  sigla String
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now())
+}
+
+model Cidades {
+  id Int @id @default(autoincrement()) // auto-increment
+  nome String
+  estado_id Int @map("Estados_id") // Nome do campo no banco de dados
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now())
+}
+
+model Pessoas {
+  id Int @id @default(autoincrement()) // auto-increment
+  nome String
+  rua String
+  numero String
+  complemento String
+  rg String
+  cidade_id Int @map("Cidades_id") 
+  tipo_id Int @map("Tipos_sanguineos_id") 
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now())
+}
+
+model locais_coleta {
+  id Int @id @default(autoincrement()) // auto-increment
+  nome String
+  rua String
+  numero String
+  complemento String
+  cidade_id Int @map("Cidades_id")
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now())
+ }
+
+model Doacoes {
+  id Int @id @default(autoincrement()) // auto-increment
+  pessoa_id Int @map("Pessoas_id")
+  local_id Int @map("Locais_coleta_id")
+  data DateTime @default(now())
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now())
+ }
