@@ -8,22 +8,22 @@
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+  A proposta do trabalho foi de uma aplicação web para agendamento e procura de informações de eventos cosmológicos. Nela a ideia é ser uma procura simples sobre quais locais e datas ocorrerão cada evento específico. Com a criação dos eventos, não se é necessária a utilização de perfis, já que o intuito do projeto é a visualização e criação dos eventos. Uma possível futura melhoria seria a adição não manual da data e dos locais, assim como a busca por eles.
 
 ### 1. Funcionalidades implementadas
-<!-- Descrever as funcionalidades que eram previstas e foram implementas. -->
+CRUD dos eventos e a busca dos mesmos.
   
 ### 2. Funcionalidades previstas e não implementadas
-<!-- Descrever as funcionalidades que eram previstas e não foram implementas, apresentando uma breve justificativa do porquê elas não foram incluídas -->
+Criação de perfil do usuário. Busca por data e local.
 
 ### 3. Outras funcionalidades implementadas
-<!-- Descrever as funcionalidades implementas além daquelas que foram previstas, caso se aplique.  -->
+Adição ao banco de dados os campos data e local.
 
 ### 4. Principais desafios e dificuldades
-<!-- Descrever os principais desafios encontrados no desenvolvimento do trabalho, quais foram as dificuldades e como elas foram superadas e resolvidas. -->
+Foram várias desafios, como a utilização do tailwind e utilização do React.
 
 ### 5. Instruções para instalação e execução
-<!-- Descrever o que deve ser feito para instalar (ou baixar) a aplicação, o que precisa ser configurando (parâmetros, banco de dados e afins) e como executá-la. -->
+Criação de um banco de dados PostgreSQL chamado cosmicEvent2, assim como instalação das dependecias utilizadas no node,express, axios, e componentes propostos pelo professor.
 
 ### 6. Referências
 <!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
