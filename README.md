@@ -11,4 +11,7 @@
 
 ## [Projeto final:](./Projeto/README.md)
 
-Apresente uma breve descrição do seu projeto.
+A proposta do trabalho foi de uma aplicação web para agendamento e procura de informações de eventos cosmológicos.
+Nela a ideia é ser uma procura simples sobre quais locais e datas ocorrerão cada evento específico. 
+Com a criação dos eventos, não se é necessária a utilização de perfis, já que o intuito do projeto é a visualização e criação dos eventos. 
+Uma possível futura melhoria seria a adição não manual da data e dos locais, assim como a busca por eles.
