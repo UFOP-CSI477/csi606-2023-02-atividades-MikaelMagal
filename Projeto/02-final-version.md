@@ -26,4 +26,4 @@ Foram várias desafios, como a utilização do tailwind e utilização do React.
 Criação de um banco de dados PostgreSQL chamado cosmicEvent2, assim como instalação das dependecias utilizadas no node,express, axios, e componentes propostos pelo professor.
 
 ### 6. Referências
-<!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
+Documentação tailwind, node e prisma.
